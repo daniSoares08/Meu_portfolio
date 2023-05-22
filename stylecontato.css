@@ -1,0 +1,213 @@
+/* stylecontato.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-image: url(https://images.pexels.com/photos/3386540/pexels-photo-3386540.jpeg?cs=srgb&dl=pexels-andre-moura-3386540.jpg&fm=jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .cabecalho {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  header {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .logo i {
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 8px;
+  }
+    
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .menu li {
+    display: inline-block;
+    width: auto;
+    font-size: 15px;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .menu li a:hover {
+    color: #2ecc71;
+  }
+  
+  .menu button {
+    color: #2ecc71;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 15px;
+    width: 150px;
+  }
+  
+  button:hover {
+    background-color: #2ecc71;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+  
+  main {
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+  }
+  
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    margin-top: 18%;
+    width: 800px;
+    border-radius: 5px;
+  }
+  
+  .contact-form .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    display: flex;
+    flex: 1;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-section {
+    flex: 1;
+  }
+  
+  .left-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .botoes-redes a {
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    color: #ffffff;
+    background-color: #2ecc71;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #27ae60;
+  }
+  
+  footer {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .footer-left p {
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-left a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-left a i {
+    margin-right: 5px;
+  }
+  
+  .footer-right a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-right a:hover {
+    color: #e4e4e4;
+  }

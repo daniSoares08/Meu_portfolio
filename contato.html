@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contato</title>
+  <link rel="stylesheet" type="text/css" href="stylecontato.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+          <div class="logo">
+            <i class="fa-solid fa-d"></i>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#">
+                  <button>Contato</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+  <main>
+    <section class="contact-form">
+      <div class="container">
+        <div class="content">
+          <div class="left-section">
+            <h2>Entre em contato</h2>
+            <div class="botoes-redes">
+              <a href="https://github.com/daniSoares08" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.instagram.com/danisoares8_/" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/daniel-campos-soares-b47426238/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="right-section">
+            <form id="contact-form" action="enviar-email.php" method="POST">
+              <label for="name">Nome <span>*</span></label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email <span>*</span></label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message"></textarea>
+
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-left">
+        <p><i class="far fa-envelope"> </i>campossoares.daniel@gmail.com</p>
+        <p><a href="https://wa.me/5541995622187" target="_blank"><i class="fab fa-whatsapp"></i> (41) 99562-2187</a></p>
+      </div>
+      <div class="footer-right">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
